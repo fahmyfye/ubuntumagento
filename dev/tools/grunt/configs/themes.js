@@ -50,7 +50,7 @@ module.exports = {
             'css/styles-l'
         ],
         dsl: 'less'
-    }
+    },
     backend: {
         area: 'adminhtml',
         name: 'Magento/backend',
