@@ -41,16 +41,6 @@ module.exports = {
         ],
         dsl: 'less'
     },
-    backend: {
-        area: 'adminhtml',
-        name: 'Magento/backend',
-        locale: 'en_US',
-        files: [
-            'css/styles-old',
-            'css/styles'
-        ],
-        dsl: 'less'
-    },
     fye: {
         area: 'frontend',
         name: 'Fye/customtheme',
@@ -58,6 +48,16 @@ module.exports = {
         files: [
             'css/styles-m',
             'css/styles-l'
+        ],
+        dsl: 'less'
+    }
+    backend: {
+        area: 'adminhtml',
+        name: 'Magento/backend',
+        locale: 'en_US',
+        files: [
+            'css/styles-old',
+            'css/styles'
         ],
         dsl: 'less'
     }
